@@ -32,3 +32,6 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
 ?>
+## How To use it
+1. You Just have to put the file in your prefered location
+2. Go to your Browser and write for example: localhost/security_check.php and it will start runing through all directories.
