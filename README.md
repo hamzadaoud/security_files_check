@@ -20,7 +20,7 @@ This PHP script performs a security check for a directory, identifying suspiciou
    git clone https://github.com/hamzadaoud/security_files_check.git
    cd security_files_check
 
-2. **Example of db_connection.php:
+2. **Example of db_connection.php:**
    <?php
 $servername = "localhost";
 $username = "your_username"; 
