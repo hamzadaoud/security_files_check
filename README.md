@@ -21,7 +21,7 @@ This PHP script performs a security check for a directory, identifying suspiciou
    cd security_files_check
 
 2. **Example of db_connection.php:**
--   <?php
+- <?php
 - $servername = "localhost";
 - $username = "your_username"; 
 - $password = "your_password"; 
