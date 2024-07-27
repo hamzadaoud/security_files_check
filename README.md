@@ -21,17 +21,17 @@ This PHP script performs a security check for a directory, identifying suspiciou
    cd security_files_check
 
 2. **Example of db_connection.php:**
-   <?php
-$servername = "localhost";
-$username = "your_username"; 
-$password = "your_password"; 
-$dbname = "your_database";
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?>
+-   <?php
+- $servername = "localhost";
+- $username = "your_username"; 
+- $password = "your_password"; 
+- $dbname = "your_database";
+- $conn = new mysqli($servername, $username, $password, $dbname);
+- if ($conn->connect_error) {
+-    die("Connection failed: " . $conn->connect_error);
+- }
+- echo "Connected successfully";
+- ?>
 ## How To use it
 1. You Just have to put the file in your prefered location
 2. Go to your Browser and write for example: localhost/security_check.php and it will start runing through all directories.
